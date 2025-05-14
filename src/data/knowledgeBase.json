@@ -1,0 +1,115 @@
+{
+    "faqs": [
+      {
+        "id": "account-opening",
+        "questions": [
+          "How do I open an account?",
+          "What's the process to open a new account?",
+          "I want to open an account at BOC"
+        ],
+        "answer": "To open an account at Bank of Ceylon, you need to visit your nearest branch with your National ID card or passport, proof of address, and an initial deposit. Different account types may have different requirements.",
+        "category": "accounts",
+        "followups": ["account-types", "required-documents", "minimum-balance"]
+      },
+      {
+        "id": "account-types",
+        "questions": [
+          "What types of accounts are available?",
+          "What account options does BOC offer?",
+          "Different types of bank accounts"
+        ],
+        "answer": "Bank of Ceylon offers several account types including Savings Accounts, Current Accounts, Fixed Deposits, and Children's Savings Accounts. Each account type has different features and benefits tailored to specific financial needs.",
+        "category": "accounts",
+        "followups": ["savings-account", "current-account", "fixed-deposit"]
+      },
+      {
+        "id": "required-documents",
+        "questions": [
+          "What documents do I need to open an account?",
+          "Documentation for account opening",
+          "Papers needed for new account"
+        ],
+        "answer": "To open an account at Bank of Ceylon, you typically need: 1) National ID card, passport, or driving license, 2) Proof of address (utility bill, bank statement), 3) Passport-sized photographs, and 4) Initial deposit amount. Additional documents may be required for specific account types.",
+        "category": "accounts",
+        "followups": ["account-opening", "minimum-balance"]
+      },
+      {
+        "id": "minimum-balance",
+        "questions": [
+          "What is the minimum balance requirement?",
+          "How much money do I need to maintain in my account?",
+          "Minimum account balance at BOC"
+        ],
+        "answer": "Minimum balance requirements vary by account type. Typically, savings accounts require LKR 1,000, while current accounts may require LKR 5,000. Some special accounts may have different requirements. Falling below the minimum balance may result in service charges.",
+        "category": "accounts",
+        "followups": ["account-types", "service-charges"]
+      },
+      {
+        "id": "online-banking",
+        "questions": [
+          "How do I register for online banking?",
+          "Setting up internet banking",
+          "BOC online banking registration"
+        ],
+        "answer": "To register for BOC SmartBanking (online banking), visit any BOC branch with your ID and account details to obtain your user ID. You'll receive an activation code via SMS. Visit the BOC website, click on 'Register' under SmartBanking, and follow the instructions to complete your registration.",
+        "category": "digital-banking",
+        "followups": ["online-banking-features", "mobile-banking", "banking-security"]
+      },
+      {
+        "id": "online-banking-features",
+        "questions": [
+          "What can I do with online banking?",
+          "Features of BOC internet banking",
+          "BOC SmartBanking capabilities"
+        ],
+        "answer": "BOC SmartBanking allows you to: 1) View account balances and statements, 2) Transfer funds between accounts, 3) Pay bills, 4) Set up standing orders, 5) Request checkbooks, 6) Apply for loans and cards, and 7) Manage your debit/credit cards including blocking lost cards.",
+        "category": "digital-banking",
+        "followups": ["mobile-banking", "banking-security", "transaction-limits"]
+      },
+      {
+        "id": "mobile-banking",
+        "questions": [
+          "How do I use mobile banking?",
+          "BOC mobile app information",
+          "Banking from smartphone"
+        ],
+        "answer": "To use BOC mobile banking: 1) Download the 'BOC Mobile Banking' app from Google Play or App Store, 2) Register using your existing SmartBanking credentials or register as a new user, 3) Verify your identity using the OTP sent to your registered mobile number, 4) Create a PIN for future logins. The app offers most features available in online banking.",
+        "category": "digital-banking",
+        "followups": ["online-banking", "banking-security"]
+      },
+      {
+        "id": "card-services",
+        "questions": [
+          "Tell me about BOC card services",
+          "What credit cards does BOC offer?",
+          "Debit and credit card information"
+        ],
+        "answer": "Bank of Ceylon offers various card services including Debit Cards (Visa/Mastercard), Credit Cards (Classic, Gold, Platinum), and Prepaid Cards. These cards come with features like cashback rewards, installment plans, discounts at partner merchants, and travel benefits depending on the card type.",
+        "category": "cards",
+        "followups": ["credit-card-application", "card-activation", "card-limits"]
+      },
+      {
+        "id": "credit-card-application",
+        "questions": [
+          "How do I apply for a credit card?",
+          "Credit card application process",
+          "Getting a BOC credit card"
+        ],
+        "answer": "To apply for a BOC credit card: 1) Visit any BOC branch or download the application form from the BOC website, 2) Submit the completed form with required documents (ID, income proof, address proof), 3) The bank will review your application and credit history, 4) If approved, you'll receive your card within 1-2 weeks. You can also apply through BOC SmartBanking if you're an existing customer.",
+        "category": "cards",
+        "followups": ["card-activation", "card-limits", "card-benefits"]
+      },
+      {
+        "id": "banking-security",
+        "questions": [
+          "How secure is BOC online banking?",
+          "Security measures for internet banking",
+          "Protecting my online account"
+        ],
+        "answer": "BOC online banking employs multiple security measures including: 1) 128-bit SSL encryption, 2) Two-factor authentication (2FA), 3) One-time passwords (OTP) for transactions, 4) Automatic session timeouts, 5) Transaction monitoring systems, and 6) Regular security updates. Never share your login details, OTPs, or respond to suspicious emails requesting your banking information.",
+        "category": "security",
+        "followups": ["report-fraud", "change-password", "secure-practices"]
+      }
+    ]
+  }
+  
